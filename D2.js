@@ -69,7 +69,8 @@ console.log(sottrazione);
 /* SCRIVI QUI LA TUA RISPOSTA */
 let name1 = "john";
 let name2 = "John";
-console.log(name2 === name1);
+console.log(name1 === name2);
+console.log(name1.toLowerCase() === name2.toUpperCase());
 
 //if (name2.toLowerCase) {
 //  block of code to be executed if condition1 is true

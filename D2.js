@@ -78,12 +78,7 @@ let name2 = "John"
 let uguaglianza =  name1 == name2  
 console.log(uguaglianza)
 
-
-if (name1 === name2.toLowerCase())  {
-  true
-  
- } 
- 
-  console.log("name1 è uguale a name2 se entrambi in lower?" )
+let uguaglianza1 = (name1.toLowerCase === name2.toLowerCase)
+  console.log(uguaglianza1)
   
   
